@@ -16,7 +16,9 @@ dependencies {
 
 jar {
     manifest {
-        attributes 'Main-Class': 'me.monmcgt.code.server.runServer'
+        // jar main class
+        // attributes 'Main-Class': 'me.monmcgt.code.server.runServer'
+        // attributes 'Main-Class': 'me.monmcgt.code.server.runClient'
     }
 }
 
